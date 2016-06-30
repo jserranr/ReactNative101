@@ -106,7 +106,7 @@ connect the device to the same WiFi network as your computer.
 To change the IP address the native app is pointing to, press the physical menu
 button, or just shake the device. It'll bring up the popup menu. Choose DevSettings
 
-![Popup menu][DeviceErrorPopupMenu =200x]
+![Popup menu][DeviceErrorPopupMenu]
 
 Then, select Debug server host & port for device
 
@@ -120,7 +120,7 @@ have the npm start running. The default port is 8081.
 And voilà! You should get the app up and running.
 
 
-[DeviceError]: https://raw.githubusercontent.com/jserranr/ReactNative101/master/README_resources/device_error.png
+[DeviceError]: https://raw.githubusercontent.com/jserranr/ReactNative101/master/README_resources/device_error.png =200x
 [DeviceErrorPopupMenu]: https://raw.githubusercontent.com/jserranr/ReactNative101/master/README_resources/device_error_popupmenu.png
 [DeviceDevSettings]: https://raw.githubusercontent.com/jserranr/ReactNative101/master/README_resources/device_devsettings.png
 [DevicePortEmpty]: https://raw.githubusercontent.com/jserranr/ReactNative101/master/README_resources/device_port_empty.png
