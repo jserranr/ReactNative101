@@ -106,7 +106,7 @@ connect the device to the same WiFi network as your computer.
 To change the IP address the native app is pointing to, press the physical menu
 button, or just shake the device. It'll bring up the popup menu. Choose DevSettings
 
-![Popup menu][DeviceErrorPopupMenu]
+![Popup menu][DeviceErrorPopupMenu =200x]
 
 Then, select Debug server host & port for device
 
