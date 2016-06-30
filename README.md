@@ -94,6 +94,7 @@ When you run app for the first time, a red screen will appear, stating that it
 is unable to reach the development server
 
 ![Unable to reach development server][DeviceError]
+<img src="https://raw.githubusercontent.com/jserranr/ReactNative101/master/README_resources/device_error.png" width="40%">
 
 This is because, by default, the app is trying to reach the development server
 at http://localhost:8081. Since the app is not running locally we must point to
@@ -120,7 +121,7 @@ have the npm start running. The default port is 8081.
 And voilà! You should get the app up and running.
 
 
-[DeviceError]: https://raw.githubusercontent.com/jserranr/ReactNative101/master/README_resources/device_error.png | width=40%
+[DeviceError]: <img src="https://raw.githubusercontent.com/jserranr/ReactNative101/master/README_resources/device_error.png" width="40%">
 [DeviceErrorPopupMenu]: https://raw.githubusercontent.com/jserranr/ReactNative101/master/README_resources/device_error_popupmenu.png
 [DeviceDevSettings]: https://raw.githubusercontent.com/jserranr/ReactNative101/master/README_resources/device_devsettings.png
 [DevicePortEmpty]: https://raw.githubusercontent.com/jserranr/ReactNative101/master/README_resources/device_port_empty.png
