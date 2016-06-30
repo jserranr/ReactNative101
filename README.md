@@ -50,8 +50,8 @@ provided the emulator is still running.
 
 **Note**: be sure that you don't have any android device plugged in.
 
-[AVDManagerIcon]: https://raw.githubusercontent.com/jserranr/Native101/master/_instructions/avdmanager_icon.png
-[AVDManagerConsole]: https://raw.githubusercontent.com/jserranr/Native101/master/_instructions/avdmanager_console.png
+[AVDManagerIcon]: https://raw.githubusercontent.com/jserranr/ReactNative101/master/_instructions/avdmanager_icon.png
+[AVDManagerConsole]: https://raw.githubusercontent.com/jserranr/ReactNative101/master/_instructions/avdmanager_console.png
 
 Alternatively to the Android Emulator, you can donwload and install Genymotion,
 which is a bit better than the out-of-the box android emulator from avd manager.
@@ -74,8 +74,8 @@ the simulator and start the app
 
 ![Xcode Target Simulator][XCodeTargetSimulator]
 
-[XCodeRunIcon]: https://raw.githubusercontent.com/jserranr/Native101/master/_instructions/runios_icon.png
-[XCodeTargetSimulator]: https://raw.githubusercontent.com/jserranr/Native101/master/_instructions/xcode_target.png
+[XCodeRunIcon]: https://raw.githubusercontent.com/jserranr/ReactNative101/master/_instructions/runios_icon.png
+[XCodeTargetSimulator]: https://raw.githubusercontent.com/jserranr/ReactNative101/master/_instructions/xcode_target.png
 
 
 ### Running on Android Device
