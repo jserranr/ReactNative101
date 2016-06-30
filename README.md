@@ -93,7 +93,6 @@ Then, open your terminal and type
 When you run app for the first time, a red screen will appear, stating that it
 is unable to reach the development server
 
-![Unable to reach development server][DeviceError]
 <img src="https://raw.githubusercontent.com/jserranr/ReactNative101/master/README_resources/device_error.png" width="40%">
 
 This is because, by default, the app is trying to reach the development server
