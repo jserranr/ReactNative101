@@ -120,7 +120,7 @@ have the npm start running. The default port is 8081.
 And voilà! You should get the app up and running.
 
 
-[DeviceError]: https://raw.githubusercontent.com/jserranr/ReactNative101/master/README_resources/device_error.png =200x
+[DeviceError]: https://raw.githubusercontent.com/jserranr/ReactNative101/master/README_resources/device_error.png | width=40%
 [DeviceErrorPopupMenu]: https://raw.githubusercontent.com/jserranr/ReactNative101/master/README_resources/device_error_popupmenu.png
 [DeviceDevSettings]: https://raw.githubusercontent.com/jserranr/ReactNative101/master/README_resources/device_devsettings.png
 [DevicePortEmpty]: https://raw.githubusercontent.com/jserranr/ReactNative101/master/README_resources/device_port_empty.png
