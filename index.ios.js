@@ -1,5 +1,5 @@
 import { AppRegistry } from 'react-native'
 
-import App from './src/components/app'
+import Main from './src/components'
 
-AppRegistry.registerComponent('ReactNative101', () => App)
+AppRegistry.registerComponent('ReactNative101', () => Main)
