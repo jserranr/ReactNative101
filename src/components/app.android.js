@@ -2,11 +2,22 @@ import React, { Component } from 'react'
 import {
   StyleSheet,
   Text,
-  View
+  TextInput,
+  TouchableHighlight,
+  View,
+  ToastAndroid
 } from 'react-native'
 
 class AppAndroid extends Component {
+
+  constructor (props) {
+    super(props)
+
+    this.state = { text: '' }
+  }
+
   render () {
+    console.log('Rendering on Android')
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
@@ -18,8 +29,24 @@ class AppAndroid extends Component {
         <Text style={styles.instructions}>
           Shake or press menu button for dev menu
         </Text>
+        <TextInput
+          style={{ alignSelf: 'stretch' }}
+          onChangeText={(text) => this.inputChanged(text)}
+          value={this.state.text} />
+        <TouchableHighlight
+          onPress={() => ToastAndroid.show('This is a toast with long duration', ToastAndroid.LONG)}
+          background={TouchableNativeFeedback.SelectableBackground()}>
+          <View>
+            <Text style={styles.instructions}>Button</Text>
+          </View>
+        </TouchableHighlight>
       </View>
     )
+  }
+
+  inputChanged (text) {
+    console.log(text)
+    this.setState({ text: text.text })
   }
 }
 

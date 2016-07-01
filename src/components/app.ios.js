@@ -2,10 +2,21 @@ import React, { Component } from 'react'
 import {
   StyleSheet,
   Text,
-  View
+  View,
+  TouchableHighlight,
+  TextInput
 } from 'react-native'
 
-class AppAndroid extends Component {
+class AppIOS extends Component {
+
+  constructor (props) {
+    super(props)
+
+    this.state = {
+      text: ''
+    }
+  }
+
   render () {
     return (
       <View style={styles.container}>
@@ -18,8 +29,25 @@ class AppAndroid extends Component {
         <Text style={styles.instructions}>
           Shake or press menu button for dev menu
         </Text>
+        <TextInput
+          style={{ height: 40, borderColor: 'gray', borderWidth: 1, margin: 10 }}
+          onChangeText={(text) => this.inputChanged(text)}
+          placeholder={'Say something'}
+          value={this.state.text} />
+        <TouchableHighlight
+          style={{ alignSelf: 'stretch', padding: 10, margin: 10 }}
+          underlayColor={'red'}>
+          <View>
+            <Text style={styles.instructions}>Button</Text>
+          </View>
+        </TouchableHighlight>
       </View>
     )
+  }
+
+  inputChanged (text) {
+    console.log(text)
+    this.setState({ text: text.text })
   }
 }
 
@@ -42,4 +70,4 @@ const styles = StyleSheet.create({
   }
 })
 
-export default AppAndroid
+export default AppIOS
