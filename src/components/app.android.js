@@ -34,8 +34,7 @@ class AppAndroid extends Component {
           onChangeText={(text) => this.inputChanged(text)}
           value={this.state.text} />
         <TouchableHighlight
-          onPress={() => ToastAndroid.show('This is a toast with long duration', ToastAndroid.LONG)}
-          background={TouchableNativeFeedback.SelectableBackground()}>
+          onPress={() => ToastAndroid.show('This is a toast with long duration', ToastAndroid.LONG)}>
           <View>
             <Text style={styles.instructions}>Button</Text>
           </View>
