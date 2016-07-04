@@ -4,9 +4,7 @@ import {
   Text,
   TextInput,
   TouchableHighlight,
-  Alert,
-  Platform,
-  Image
+  Alert
 } from 'react-native'
 import styles from '../styles'
 
@@ -18,23 +16,14 @@ export default class App extends Component {
     this.state = { text: '' }
   }
 
-  renderImage () {
-    if (Platform.OS === 'ios') {
-      return <Image resizeMode={'contain'} source={require('../resources/apple_logo.png')} style={styles.logo} />
-    } else {
-      return <Image resizeMode={'contain'} source={require('../resources/android_logo.png')} style={styles.logo} />
-    }
-  }
-
   render () {
     return (
       <View style={styles.container}>
-        {this.renderImage()}
         <Text style={styles.welcome}>
-          Welcome to React Native on {Platform.OS}!
+          Welcome to React Native on iOS!
         </Text>
         <Text style={styles.instructions}>
-          To get started, edit app.{Platform.OS}.js
+          To get started, edit app.ios.js
         </Text>
         <Text style={styles.instructions}>
           Shake or press menu button for dev menu
@@ -46,6 +35,7 @@ export default class App extends Component {
         <TouchableHighlight
           style={styles.button}
           underlayColor={'#515151'}
+          placeholder={'hello'}
           onPress={this.createAlert.bind(this)}>
           <Text style={[styles.instructions, { color: 'white', fontWeight: 'bold' }]}>
             Button
